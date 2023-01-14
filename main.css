@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+}
+
+main > section{
+    position: relative;
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-shadow: 0px 2px 5px rgba(0,0,0,0.6);
+}
+.background{
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 20rem;
+    background-image:url(./DALL·E\ 2023-01-14\ 12.12.31\ -\ line\ chart\,\ background\,\ light\ mode\ .png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -596px;
+    opacity: 0.5;
+}
+
+
+h1{
+    font-size: 2rem;
+}
+
+.subtitulo{
+    opacity: 1;
+    width: 70%;
+    height: fit-content;
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+}
+
+main{
+    width: 100%;
+    height: 10vh;
+}
+
+iframe{
+    width: 100%;
+}
